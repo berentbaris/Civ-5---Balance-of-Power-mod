@@ -55,19 +55,19 @@
 
 		<!-- Attempted victories should most definitely lead to wars -->
 		<Update>
-			<Set Value="-1" />
+			<Set Value="0" />
 			<Where Name="OPINION_WEIGHT_VICTORY_NONE" />
 		</Update>
 		<Update>
-			<Set Value="5" />
+			<Set Value="50" />
 			<Where Name="OPINION_WEIGHT_VICTORY_WEAK" />
 		</Update>
 		<Update>
-			<Set Value="25" />
+			<Set Value="100" />
 			<Where Name="OPINION_WEIGHT_VICTORY_STRONG" />
 		</Update>
 		<Update>
-			<Set Value="125" />
+			<Set Value="150" />
 			<Where Name="OPINION_WEIGHT_VICTORY_FIERCE" />
 		</Update>
 
@@ -185,6 +185,31 @@
 		<Update>
 			<Set Value="110" />
 			<Where Name="ECONOMIC_STRENGTH_RATIO_MULTIPLIER" />
+		</Update>
+		<!-- Cooperation desires-->
+		<Update>
+			<Set Value="25" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_IMMENSE" />
+		</Update>
+		<Update>
+			<Set Value="25" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_POWERFUL" />
+		</Update>
+		<Update>
+			<Set Value="100" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_SAME_COMPETITOR" />
+		</Update>
+		<Update>
+			<Set Value="150" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_COMPETITOR_ENEMY" />
+		</Update>
+		<Update>
+			<Set Value="150" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_ENEMY_COMPETITOR" />
+		</Update>
+		<Update>
+			<Set Value="200" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_SAME_ENEMY" />
 		</Update>
 	</Defines>
 </GameData>
