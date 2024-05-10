@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f2a9ed6c-7598-451e-913f-fe291cd390b3" version="1">
+  <Properties>
+    <Name>Balance of Power</Name>
+    <Teaser>Improves AI to act more like real-life nation-states, according to the balance of power theory in international relations.</Teaser>
+    <Description>Builds on the Artificial Unintelligence mod to make AI actually try to win the game.</Description> 
+
+
+    <Authors>Berent Baris</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="329FC533A1A8F894FF5B3E35329C7BD7" import="0">AI.sql</File>
+    <File md5="5ED089C9F55D2655F82143B5221939E2" import="0">New_CIV5AICityStrategies.xml</File>
+    <File md5="1DB00ABCE528FEB9D9CC43ED5590CA0B" import="0">New_CIV5AIEconomicStrategies.xml</File>
+    <File md5="5CAD6559AC58C591DAF38F14EA159721" import="0">New_CIV5AIGrandStrategies.xml</File>
+    <File md5="D0EF07B33DD44C62BE582A7F9C57B513" import="0">New_CIV5AIMilitaryStrategies.xml</File>
+    <File md5="33DD94D2261378B2FCFB117C8AB735EE" import="0">New_CIV5CitySpecializations.xml</File>
+    <File md5="213BE276162225BF18C86CF9E4910FB5" import="0">New_CIV5Units.xml</File>
+    <File md5="092BB4E545570B92E46897D3AC06F2AA" import="0">New_GlobalAIDefines.xml</File>
+    <File md5="AAE42DBA92428F574923118F03826D13" import="0">New_CIV5MultiUnitFormations.xml</File>
+    <File md5="9A6C3FFC72E82B4A7F4BC1EB7D53151E" import="0">New_CIV5TacticalMoves.xml</File>
+    <File md5="F8214D92DE9959C40AB7384276BB6A91" import="0">New_GlobalDefines.xml</File>
+    <File md5="140CAE485AFCC60EE1DC4A34491E817F" import="0">New_GlobalDiplomacyAIDefines.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>AI.sql</UpdateDatabase>
+      <UpdateDatabase>New_GlobalDefines.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5AICityStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5AIEconomicStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5AIGrandStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5AIMilitaryStrategies.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5CitySpecializations.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5MultiUnitFormations.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5TacticalMoves.xml</UpdateDatabase>
+      <UpdateDatabase>New_CIV5Units.xml</UpdateDatabase>
+      <UpdateDatabase>New_GlobalAIDefines.xml</UpdateDatabase>
+      <UpdateDatabase>New_GlobalDiplomacyAIDefines.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>
