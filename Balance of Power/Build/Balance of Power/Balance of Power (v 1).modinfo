@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="57ac4b8d-4e40-4703-b833-a1404ce1d726" version="1">
+  <Properties>
+    <Name>Balance of Power</Name>
+    <Stability>Alpha</Stability>
+    <Teaser>Improves AI</Teaser>
+    <Description>Improves AI</Description>
+    <Authors>beren</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="BEF4F5AD2E85537E3225FFFEE09CA8A8" import="0">Game Rules1.sql</File>
+    <File md5="87E7D5B2E594A337376FAD0BD8A78F7E" import="0">Game Rules2.xml</File>
+  </Files>
+  <Actions>
+    <OnModActivated>
+      <UpdateDatabase>Game Rules1.sql</UpdateDatabase>
+      <UpdateDatabase>Game Rules2.xml</UpdateDatabase>
+    </OnModActivated>
+  </Actions>
+</Mod>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{F5FC21B5-7CC2-458A-ABBA-992F515BBA20}") = "Balance of Power", "Balance of Power\Balance of Power.civ5proj", "{9E0590A2-9040-47D5-8AA7-224C869635FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E0590A2-9040-47D5-8AA7-224C869635FD}.Default|x86.ActiveCfg = Default|x86
+		{9E0590A2-9040-47D5-8AA7-224C869635FD}.Default|x86.Build.0 = Default|x86
+		{9E0590A2-9040-47D5-8AA7-224C869635FD}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{9E0590A2-9040-47D5-8AA7-224C869635FD}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{9E0590A2-9040-47D5-8AA7-224C869635FD}.Package Only|x86.ActiveCfg = Package Only|x86
+		{9E0590A2-9040-47D5-8AA7-224C869635FD}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

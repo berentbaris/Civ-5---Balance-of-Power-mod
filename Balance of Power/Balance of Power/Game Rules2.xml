@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/25/2024 12:39:19 AM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Set Value="30" />
+			<Where Name="OPINION_WEIGHT_LAND_FIERCE" />
+		</Update>
+
+		<Update>
+			<Set Value="15" />
+			<Where Name="OPINION_WEIGHT_LAND_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="-15" />
+			<Where Name="OPINION_WEIGHT_LAND_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="15" />
+			<Where Name="OPINION_WEIGHT_LAND_NONE" />
+		</Update>
+
+		<Update>
+			<Set Value="30" />
+			<Where Name="OPINION_WEIGHT_VICTORY_FIERCE" />
+		</Update>
+
+		<Update>
+			<Set Value="15" />
+			<Where Name="OPINION_WEIGHT_VICTORY_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="-15" />
+			<Where Name="OPINION_WEIGHT_VICTORY_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="15" />
+			<Where Name="OPINION_WEIGHT_VICTORY_NONE" />
+		</Update>
+
+		<Update>
+			<Set Value="10" />
+			<Where Name="OPINION_WEIGHT_WONDER_FIERCE" />
+		</Update>
+
+		<Update>
+			<Set Value="5" />
+			<Where Name="OPINION_WEIGHT_WONDER_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_WONDER_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_WONDER_NONE" />
+		</Update>
+
+		<Update>
+			<Set Value="10" />
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_FIERCE" />
+		</Update>
+
+		<Update>
+			<Set Value="5" />
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_MINOR_CIV_NONE" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_WARMONGER_CRITICAL" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_WARMONGER_SEVERE" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_WARMONGER_MAJOR" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="OPINION_WEIGHT_WARMONGER_MINOR" />
+		</Update>
+
+		<Update>
+			<Set Value="-50" />
+			<Where Name="OPINION_WEIGHT_COMMON_FOE_MAX" />
+		</Update>
+
+		<Update>
+			<Set Value="-12" />
+			<Where Name="APPROACH_WAR_AT_WAR_WITH_PLAYER_WARS_NEUTRAL" />
+		</Update>
+
+		<Update>
+			<Set Value="-12" />
+			<Where Name="APPROACH_WAR_AT_WAR_WITH_PLAYER_WARS_WINNING" />
+		</Update>
+
+		<Update>
+			<Set Value="-12" />
+			<Where Name="APPROACH_WAR_AT_WAR_WITH_PLAYER_WARS_LOSING" />
+		</Update>
+
+		<Update>
+			<Set Value="180" />
+			<Where Name="APPROACH_WAR_PROJECTION_DESTRUCTION_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="100" />
+			<Where Name="APPROACH_WAR_PROJECTION_DEFEAT_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="180" />
+			<Where Name="APPROACH_GUARDED_PROJECTION_DESTRUCTION_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="100" />
+			<Where Name="APPROACH_GUARDED_PROJECTION_DEFEAT_PERCENT" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_IMMENSE" />
+		</Update>
+
+		<Update>
+			<Set Value="5" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_POWERFUL" />
+		</Update>
+
+		<Update>
+			<Set Value="25" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_AVERAGE" />
+		</Update>
+
+		<Update>
+			<Set Value="25" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_POOR" />
+		</Update>
+
+		<Update>
+			<Set Value="5" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_WEAK" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="COOPERATION_DESIRE_MILITARY_STRENGTH_PATHETIC" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_SAME_COMPETITOR" />
+		</Update>
+
+		<Update>
+			<Set Value="75" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_COMPETITOR_ENEMY" />
+		</Update>
+
+		<Update>
+			<Set Value="75" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_ENEMY_COMPETITOR" />
+		</Update>
+
+		<Update>
+			<Set Value="100" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_SAME_ENEMY" />
+		</Update>
+
+		<Update>
+			<Set Value="-200" />
+			<Where Name="COOPERATION_DESIRE_THEM_US_SAME_ENEMY" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="EVALUATE_WAR_BAD_TARGET" />
+		</Update>
+
+		<Update>
+			<Set Value="100" />
+			<Where Name="EVALUATE_WAR_IMPOSSIBLE_TARGET" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="PEACE_WILLINGNESS_OFFER_PROJECTION_DESTRUCTION" />
+		</Update>
+
+		<Update>
+			<Set Value="20" />
+			<Where Name="PEACE_WILLINGNESS_OFFER_PROJECTION_DEFEAT" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="PEACE_WILLINGNESS_OFFER_PROJECTION_STALEMATE" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="PEACE_WILLINGNESS_ACCEPT_TARGET_IMPOSSIBLE" />
+		</Update>
+
+		<Update>
+			<Set Value="20" />
+			<Where Name="PEACE_WILLINGNESS_ACCEPT_TARGET_BAD" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="WAR_GOAL_STATE_STALEMATE" />
+		</Update>
+
+		<Update>
+			<Set Value="-50" />
+			<Where Name="WAR_GOAL_STATE_DEFENSIVE" />
+		</Update>
+
+		<Update>
+			<Set Value="-100" />
+			<Where Name="WAR_GOAL_STATE_NEARLY_DEFEATED" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="WAR_GOAL_TARGET_BAD" />
+		</Update>
+
+		<Update>
+			<Set Value="100" />
+			<Where Name="WAR_GOAL_TARGET_IMPOSSIBLE" />
+		</Update>
+
+		<Update>
+			<Set Value="25" />
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="60" />
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_POWERFUL" />
+		</Update>
+
+		<Update>
+			<Set Value="100" />
+			<Where Name="WAR_PROJECTION_THEIR_MILITARY_STRENGTH_IMMENSE" />
+		</Update>
+
+		<Update>
+			<Set Value="12" />
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_STRONG" />
+		</Update>
+
+		<Update>
+			<Set Value="30" />
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_POWERFUL" />
+		</Update>
+
+		<Update>
+			<Set Value="50" />
+			<Where Name="WAR_PROJECTION_THEIR_ECONOMIC_STRENGTH_IMMENSE" />
+		</Update>
+
+		<Update>
+			<Set Value="10" />
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_THEM_MINOR" />
+		</Update>
+
+		<Update>
+			<Set Value="20" />
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_THEM_MAJOR" />
+		</Update>
+
+		<Update>
+			<Set Value="30" />
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_THEM_SERIOUS" />
+		</Update>
+
+		<Update>
+			<Set Value="40" />
+			<Where Name="WAR_PROJECTION_WAR_DAMAGE_THEM_CRIPPLED" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="APPROACH_AFRAID_MILITARY_THREAT_CRITICAL" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="APPROACH_AFRAID_MILITARY_THREAT_SEVERE" />
+		</Update>
+
+		<Update>
+			<Set Value="0" />
+			<Where Name="APPROACH_AFRAID_MILITARY_THREAT_MAJOR" />
+		</Update>
+
+		<Update>
+			<Set Value="-150" />
+			<Where Name="EVALUATE_WAR_NOT_PREPARED" />
+		</Update>
+	</Defines>  
+</GameData>
